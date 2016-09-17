@@ -7,6 +7,7 @@ export const logger = (config) => {
 			let newState = next(state, payload);
 
 			console.log("New state:", newState);
+			return newState;
 		}
 	};
 };
