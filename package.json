@@ -1,5 +1,5 @@
 {
-  "name": "es-logger",
+  "name": "elastic-store-logger",
   "version": "0.1.0",
   "description": "A logger for elastic store.",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elastic-store/es-logger.git"
+    "url": "https://github.com/elastic-store/logger.git"
   },
   "keywords": [
     "logger",
@@ -18,7 +18,7 @@
   "author": "ludbek",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/elastic-store/es-logger/issues"
+    "url": "https://github.com/elastic-store/logger/issues"
   },
-  "homepage": "https://github.com/elastic-store/es-logger"
+  "homepage": "https://github.com/elastic-store/logger"
 }
