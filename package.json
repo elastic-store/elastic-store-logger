@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/elastic-store/logger/issues"
   },
-  "homepage": "https://github.com/elastic-store/logger"
+  "homepage": "https://github.com/elastic-store/logger",
+  "dependencies": {
+    "deep-diff": "^0.3.4"
+  }
 }
