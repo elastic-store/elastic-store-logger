@@ -1,11 +1,8 @@
-import {diff} from "deep-diff";
+import {diff} from "jsondiffpatch";
 
-const logDiff = (diffs) => {
-	if (!diffs) return;
-
-	diffs.forEach((diff) => {
-		console.log(diff);
-	});
+const logDiff = (diff) => {
+	if (!diff) return;
+	console.info("%cdiff:%O", "font-weight: bold", diff);
 };
 
 export const logger = (config = {}) => {
@@ -35,7 +32,7 @@ export const logger = (config = {}) => {
 			let newState = next(state, payload);
 
 			log.newState = Object.assign({}, newState);
-			log.diff = diff(log.oldState, newState);
+			log.diff = diff(log.oldState, log.newState);
 
 			// log
 			Object.keys(log).map((key) => {
