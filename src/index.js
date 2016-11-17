@@ -1,3 +1,8 @@
+export const clone = (data) => {
+	return JSON.parse(JSON.stringify(data));
+};
+
+
 export const logger = (config = {}) => {
 	let defaults = {
 		collapsed: true
@@ -18,12 +23,12 @@ export const logger = (config = {}) => {
 			}
 
 			log.payload = payload;
-			log.oldState = Object.assign({}, state);
+			log.oldState = clone(state);
 
 			// get new state
 			let newState = next(state, payload);
 
-			log.newState = Object.assign({}, newState);
+			log.newState = clone(newState);
 
 			// log
 			Object.keys(log).map((key) => {
