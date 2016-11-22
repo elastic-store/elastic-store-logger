@@ -1,3 +1,4 @@
 .brofile
 node_modules/
 .brotasks
+lib/
