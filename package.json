@@ -1,6 +1,6 @@
 {
   "name": "elastic-store-logger",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A logger for elastic store.",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/elastic-store/logger/issues"
   },
   "homepage": "https://github.com/elastic-store/logger",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
