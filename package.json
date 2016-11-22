@@ -1,6 +1,6 @@
 {
   "name": "elastic-store-logger",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A logger for elastic store.",
   "main": "lib/index.js",
   "scripts": {
@@ -11,6 +11,11 @@
     "type": "git",
     "url": "https://github.com/elastic-store/logger.git"
   },
+  "files": [
+    "src",
+    "lib",
+    "dist"
+  ],
   "keywords": [
     "logger",
     "store",
