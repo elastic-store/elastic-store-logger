@@ -2,6 +2,9 @@
 A logger for [elastic-store](https://github.com/elastic-store/store).
 
 ## Installation
+```
+$ npm install --save elastic-store-logger
+```
 
 ## Usage
 It can be attached in two different ways.
